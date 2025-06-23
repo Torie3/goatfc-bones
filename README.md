@@ -78,7 +78,7 @@ Follow these steps to flash Betaflight firmware to your GoatFC-Bones flight cont
 4. In Betaflight Configurator, your FC should now show up as **DFU Bootloader**.
 5. Go to the **Firmware Flasher** tab.
 6. Under **Board**, select:  
-   **`FOXEERF405MINI`** (GoatFC-Bones shares a pinout with the Foxeer Mini V4).
+   **`FOXEERF722V4`** (GoatFC-Bones shares a pinout with the Foxeer Mini V4).
 7. Choose your preferred **firmware version** from the dropdown.
 8. Click **Load Firmware [Online]**.
 9. Then click **Flash Firmware**.
@@ -102,5 +102,17 @@ save
 
 > 💡 Tip: After remapping, test motor directions in the “Motors” tab and double-check the order before your first flight.
 
+---
 
+## ⚠️ Disclaimer
 
+This project is provided **as-is** without any warranty or guarantee of functionality or safety.
+
+By using the GoatFC-Bones design files, firmware configurations, or build instructions, you acknowledge and agree that:
+
+- You are solely responsible for your own safety and the safety of others.
+- You assume all risks associated with the assembly, flashing, and use of this hardware.
+- I (the creator) am **not liable** for any damage, injury, loss, or malfunction resulting from the use, misuse, or failure of this project.
+- Always follow proper electrical and flight safety practices, and ensure compliance with your local laws and regulations.
+
+> 🚧 Use at your own risk. This is an open-source DIY project intended for educational and recreational purposes (drone racing an amazing hobby!).
