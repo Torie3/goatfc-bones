@@ -88,13 +88,16 @@ Follow these steps to flash Betaflight firmware to your GoatFC-Bones flight cont
 
 Because the motor layout on GoatFC-Bones differs from the Foxeer Mini V4, you must **remap the motors** in the CLI:
 
-1 Go to the **CLI** tab
-2 In the cli type: ''' resource MOTOR 1 PC08
+1. Go to the **CLI** tab
+2. In the cli type:
+```
+resource MOTOR 1 PC08
 resource MOTOR 2 PC09
 resource MOTOR 3 PA08
 resource MOTOR 4 PA09
-save ''' 
-3 Now your motors should be in the correct order.
+save
+```
+4. Now your motors should be in the correct order.
 - You only need to do this once — after that, you can **save your configuration as a preset** to reload easily next time.
 
 > 💡 Tip: After remapping, test motor directions in the “Motors” tab and double-check the order before your first flight.
