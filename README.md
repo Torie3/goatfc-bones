@@ -32,7 +32,7 @@
 
 Below is the pinout for the GoatFC-Bones flight controller. Make sure to reference this schematic when wiring your components.
 
-<img src="pictures/pinout goatfc bones.png" alt="GoatFC-Bones Pinout" width="400">
+<img src="pictures/pinout goatfc bones.png" alt="GoatFC-Bones Pinout" width="600">
 
 > ⚠️ **Note:** The dedicated 3.3V regulators *are* broken out on the board, but **they are not intended for external use**. If you're curious about their exact location or implementation, please refer to the KiCad design files. Avoid connecting anything to these lines unless you fully understand the design — using them improperly may cause instability or damage.
 
@@ -49,6 +49,8 @@ You can order the PCBs from your favorite PCB manufacturer — the Gerber files 
 
 The BOM is provided as an **interactive BOM**, which you can view here:  
 [Download and open html file here](./interactive-bom)
+
+<img src="pictures/ibom-picture.png" alt="IBOM showcase" width="600">
 
 The iBOM makes it easy to locate and identify all the required components. Just search for the parts and order them from your preferred distributor.
 
