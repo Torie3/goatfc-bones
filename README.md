@@ -61,4 +61,43 @@ The iBOM makes it easy to locate and identify all the required components. Just 
 
 Good luck, and enjoy flying with your custom GoatFC-Bones FC!
 
+## Flashing Betaflight to GoatFC-Bones
+
+Follow these steps to flash Betaflight firmware to your GoatFC-Bones flight controller:
+
+### Requirements
+- A fully assembled GoatFC-Bones FC
+- [Betaflight Configurator](https://github.com/betaflight/betaflight-configurator/releases) (latest version) installed on your PC
+
+### Flashing Steps
+
+1. **Build and assemble** your GoatFC-Bones FC.
+2. **Install the latest Betaflight Configurator** on your computer.
+3. **Enter DFU mode**:
+   - Hold down the **boot button** on the FC while plugging in the **Micro-USB** cable.
+4. In Betaflight Configurator, your FC should now show up as **DFU Bootloader**.
+5. Go to the **Firmware Flasher** tab.
+6. Under **Board**, select:  
+   **`FOXEERF405MINI`** (GoatFC-Bones shares a pinout with the Foxeer Mini V4).
+7. Choose your preferred **firmware version** from the dropdown.
+8. Click **Load Firmware [Online]**.
+9. Then click **Flash Firmware**.
+10. Once flashing is complete, the firmware is installed and ready to go! 🎉
+
+### ⚠️ Important: Motor Remapping Required
+
+Because the motor layout on GoatFC-Bones differs from the Foxeer Mini V4, you must **remap the motors** in the CLI:
+
+1 Go to the **CLI** tab
+2 In the cli type: ''' resource MOTOR 1 PC08
+resource MOTOR 2 PC09
+resource MOTOR 3 PA08
+resource MOTOR 4 PA09
+save ''' 
+3 Now your motors should be in the correct order.
+- You only need to do this once — after that, you can **save your configuration as a preset** to reload easily next time.
+
+> 💡 Tip: After remapping, test motor directions in the “Motors” tab and double-check the order before your first flight.
+
+
 
