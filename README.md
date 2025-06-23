@@ -32,7 +32,7 @@
 
 Below is the pinout for the GoatFC-Bones flight controller. Make sure to reference the silkscreen labels when wiring your components.
 
-<img src="assets/goatfc-bones-pinout.png" alt="GoatFC-Bones Pinout" width="400">
+<img src="pictures/pinout goatfc bones.png" alt="GoatFC-Bones Pinout" width="400">
 
 > ⚠️ **Note:** The dedicated 3.3V regulators *are* broken out on the board, but **they are not intended for external use**. If you're curious about their exact location or implementation, please refer to the KiCad design files. Avoid connecting anything to these lines unless you fully understand the design — using them improperly may cause instability or damage.
 
