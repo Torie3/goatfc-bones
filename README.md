@@ -13,7 +13,7 @@
 - **Voltage Regulation:**
   - 5V and 12V BEC outputs
   - Dual 3.3V LDOs:
-    - One dedicated to the gyro for **noise isolation**
+    - One dedicated to the IMU for **noise isolation**
     - One for the rest of the system
 
 - **Connectivity:**
@@ -28,3 +28,14 @@
 - **License & Use:**
   - **Open-source** – build it, modify it, improve it
   - **Non-commercial** – redistribution for sale is **not allowed**
+## 🧷 Pinout Diagram
+
+Below is the pinout for the GoatFC-Bones flight controller. Make sure to reference the silkscreen labels when wiring your components.
+
+<img src="assets/goatfc-bones-pinout.png" alt="GoatFC-Bones Pinout" width="400">
+
+> ⚠️ **Note:** The dedicated 3.3V regulators *are* broken out on the board, but **they are not intended for external use**. If you're curious about their exact location or implementation, please refer to the KiCad design files. Avoid connecting anything to these lines unless you fully understand the design — using them improperly may cause instability or damage.
+
+
+> 🔌 Always double-check with a multimeter before connecting components!
+
