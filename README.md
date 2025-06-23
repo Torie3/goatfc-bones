@@ -48,7 +48,7 @@ You can order the PCBs from your favorite PCB manufacturer — the Gerber files 
 ### 📦 Bill of Materials (BOM)
 
 The BOM is provided as an **interactive BOM**, which you can view here:  
-**[insert iBOM link or path here]**
+[Download and open html file here](./interactive-bom)
 
 The iBOM makes it easy to locate and identify all the required components. Just search for the parts and order them from your preferred distributor.
 
