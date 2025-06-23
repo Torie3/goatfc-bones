@@ -17,7 +17,7 @@
   - 6-pin HD video system plug
 
 - **Software:**
-  - Fully compatible with [Betaflight](https://betaflight.com/)
+  - Compatible with [Betaflight](https://betaflight.com/) no official target yet!
 
 - **License & Use:**
   - **Open-source** – build it, modify it, improve it
