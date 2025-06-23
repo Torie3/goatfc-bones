@@ -2,11 +2,11 @@
 
 <div align="left">
   <p>
-    <strong>GoatFC-Bones</strong> is a compact, open-source FPV drone flight controller designed for minimal builds without sacrificing performance. It’s ideal for hobbyists who want reliable, noise-isolated hardware and seamless Betaflight integration.
+    <strong>GoatFC-Bones</strong> is a compact, cheap, open-source FPV drone flight controller designed for racing builds without sacrificing performance. It’s ideal for hobbyists who want simple hardware so that they can easily understand what is happening in their quadcopter.
   </p>
 </div>
 
-<img src="/pictures/top-side.jpg" alt="GoatFC-Bones Flight Controller" align="right" width="300">
+<img src="/pictures/top-side.jpg" alt="GoatFC-Bones Flight Controller" align="right" width="400">
 
 ## 🔧 Key Features
 
